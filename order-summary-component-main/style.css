@@ -10,6 +10,9 @@ body{
     
 
 }
+a{
+    text-decoration: none;
+}
 header img{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -21,21 +24,28 @@ header img{
 .primeira{
     background-color: white;
     width: 33vw;
-    height: 55vh;
+    height: 57vh;
     display: inline-block;
     justify-content: center;
     align-items: center;
     margin: 0;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.281);
+
 }    
 .primeira h1{
     font-size: 25px;
-    letter-spacing: 2px;
     padding-top: 28px;
+    color: rgb(12, 27, 68);
+    font-weight: bolder;
 }
 .text{
     text-align: center;
+    color: rgba(36, 42, 56, 0.767);
+    padding-left: 45px;
+    padding-right: 45px;
+    
 }
 
 .annual_plan{
@@ -67,6 +77,14 @@ header img{
     margin-top: -30px;
     margin-bottom: 15px;
     font-weight: bold;
+    text-decoration: none;
+}
+.annual_plan a:visited{
+    color: rgb(29, 2, 206);
+}
+.annual_plan a:hover{
+    color: rebeccapurple;
+    transition: color .2s linear
 }
 .payment{
     display: inline-block;
@@ -77,13 +95,36 @@ header img{
     color: white;
     font-weight: bold;
     border-radius: 10px;
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.486);
+    text-align: center;
+
+}
+.payment a{
+    text-decoration: none;
+}
+
+.payment a:visited{
+    color: white;
+}
+.payment a:hover{
+    color: rgba(255, 255, 255, 0.274);
+    transition: color .2s linear
+    
 }
 .cancel{
     margin-top: 30px;
-    margin-bottom: 40px;
+   
     color: rgb(40, 43, 97);
     font-weight: bold;
 }
+.cancel a{
+    text-decoration: none;
+}
+.cancel a:hover{
+    color: rgb(117, 114, 143);
+    transition: color .2s linear;
+}
 .attribution{
     margin-top: 30px;
+    margin-bottom: 5px;
 }
