@@ -10,14 +10,24 @@ body{
     
 
 }
+header img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 35px;
+    margin-bottom: -4px;
+    width: 33%;
+   height: auto;
+}
 .primeira{
     background-color: white;
     width: 33vw;
-    height: 50vh;
+    height: 55vh;
     display: inline-block;
     justify-content: center;
     align-items: center;
     margin: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }    
 .primeira h1{
     font-size: 25px;
@@ -30,7 +40,7 @@ body{
 
 .annual_plan{
     display: inline-block;
-    background-color: whitesmoke;
+    background-color: rgba(225, 240, 250, 0.575);
     padding: 20px;
     background-image: url(./images/icon-music.svg);
     background-repeat: no-repeat;
@@ -38,6 +48,9 @@ body{
     background-position: 20px 8px;
     line-height: 5px;
     width: 75%;
+    border-radius: 10px;
+    
+    
 }
 .annual_plan h4{
     margin-top: 2px;
@@ -53,5 +66,24 @@ body{
     display: block;
     margin-top: -30px;
     margin-bottom: 15px;
+    font-weight: bold;
 }
-   
+.payment{
+    display: inline-block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 77%;
+    background-color: rgb(29, 2, 206);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.cancel{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: rgb(40, 43, 97);
+    font-weight: bold;
+}
+.attribution{
+    margin-top: 30px;
+}
