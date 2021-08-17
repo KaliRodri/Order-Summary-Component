@@ -15,11 +15,13 @@
     }
     header img{
     margin-top: 105px;
-    max-width: 600px;
+    max-width: 520px;
     height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-bottom: -4px;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 20px -25px 75px rgba(0, 0, 0, 0.24);
     }
     .primeira{
