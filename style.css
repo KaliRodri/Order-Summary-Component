@@ -1,4 +1,4 @@
-@media only screen  and (max-width: 600px){
+@media only screen  and (max-width: 720px){
     body{
         font-family: sans-serif;
         background-image: url(./images/pattern-background-desktop.svg);
@@ -13,9 +13,11 @@
     a{
         text-decoration: none;
     }
+    header{
+        margin-top: 205px;
+    }
     header img{
-    margin-top: 105px;
-    max-width: 600px;
+    min-width: 610px;
     height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -27,7 +29,7 @@
         display: block;
         padding: 12px;
         margin: auto;
-        max-width: 426px;
+        max-width: 587px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         box-shadow: 20px 8px 75px rgba(0, 0, 0, 0.247);
@@ -45,29 +47,31 @@
         color: rgba(36, 42, 56, 0.767);
         padding-left: 35px;
         padding-right: 35px;
-        font-size: 20px;
+        font-size: 25px;
         margin-bottom: 30px;
     }
     .annual_plan{
         display: inline-block;
         background-color: rgba(225, 240, 250, 0.575);
-        padding: 20px;
+        padding: 40px;
+
         background-image: url(./images/icon-music.svg);
         background-repeat: no-repeat;
-        background-size: 58px 58px;
-        background-position: 20px 8px;
+        background-size: 95px 95px;
+        background-position: 20px 18px;
         line-height: 5px;
         width: 85%;
         border-radius: 10px; 
     }
     .annual_plan strong{
         margin-top: 2px;
-        font-size: 18px;
+        font-size: 32px;
         text-align: center;
         margin-right: 2px;
     }
     .annual_plan p{
         text-align: center;
+        font-size: 22px;
        
     }
     .annual_plan a{
@@ -77,6 +81,7 @@
         margin-bottom: 15px;
         font-weight: bold;
         text-decoration: none;
+        font-size: 25px;
     }
     .annual_plan a:visited{
         color: rgb(29, 2, 206);
@@ -88,14 +93,15 @@
     .payment{
         display: inline-block;
         margin-top: 35px;
-        padding: 15px;
-        width: 77%;
+        padding: 25px;
+        width: 87%;
         background-color: rgb(29, 2, 206);
         color: white;
         font-weight: bold;
         border-radius: 10px;
         box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.486);
         text-align: center;
+        font-size: 30px;
     
     }
     .payment a{
@@ -115,11 +121,12 @@
         margin-bottom: 25px;
         color: rgb(40, 43, 97);
         font-weight: bold;
+        
     }
     .cancel button{
         border: none;
         background: none;
-        font-size: 17px;
+        font-size: 27px;
         color: rgb(40, 43, 97);
         font-weight: bold;
     
@@ -131,10 +138,10 @@
     .attribution{
         margin-top: 170px;
         margin-bottom: 5px;
-        font-size: 20px;
+        font-size: 25px;
     }
 }
-@media only screen and (min-width: 605px){
+@media only screen and (min-width: 768px){
     body{
         font-family: sans-serif;
         background-image: url(./images/pattern-background-desktop.svg);
